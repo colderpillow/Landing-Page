@@ -1,0 +1,107 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:column ;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    color: #3A3845;
+    background-color: #DEBA9D;
+    height: 30px;
+    padding: 10px;
+}
+.header-right{
+    display: flex;
+    gap: 50px;
+}
+.one{
+    width: 100%;
+    display: flex;
+    height: 500px;
+    color: #DEBA9D;
+    background-color: #3A3845;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+p{
+    width: 500px;
+}
+strong{
+    font-size: x-large;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color: #3A3845;
+    background-color: #DEBA9D;
+}
+.main-contents{ 
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+}
+.box-containers{
+    display: flex;
+    text-align:center;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.boxes{
+    width: 200px;
+    height: 175px;
+    border-radius: 20%;
+    border: #3A3845 1mm solid;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color: #DEBA9D;
+    font-size: x-large;
+    font-style: italic;
+    background-color: #3A3845;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: #3A3845;
+    background-color: #DEBA9D;
+}
+button {
+    display: flex;
+    border: none;
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.6em;
+    background-color: #DEBA9D;
+    color: #3A3845;
+    padding: 1em;
+    font-weight: bold;
+   }
+   
+   button:hover {
+       transform: scale(0.9);
+       transition-duration: 0.5s;
+   }
+   button:not(hover)  {
+    transition-duration: 1s;
+}
