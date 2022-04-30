@@ -76,13 +76,32 @@ img{
     font-style: italic;
     background-color: #3A3845;
 }
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #DEBA9D;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width : 80%;
+    height: 40%;
+    border-radius: 20px;
+    color: #DEBA9D;
+    font-size: x-large;
+    font-style: italic;
+    background-color: #3A3845; ;
+}
 .footer{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
-    color: #3A3845;
-    background-color: #DEBA9D;
+    color: #DEBA9D;
+    background-color: #3A3845;
 }
 button {
     display: flex;
@@ -97,7 +116,7 @@ button {
     padding: 1em;
     font-weight: bold;
    }
-   
+
    button:hover {
        transform: scale(0.9);
        transition-duration: 0.5s;
